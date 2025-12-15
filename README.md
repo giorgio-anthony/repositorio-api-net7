@@ -86,12 +86,3 @@ Em seguida use uma ferramenta como `ReportGenerator` para visualizar relatórios 
 ## Decisões de naming / convenções
 - Namespaces organizados por camada (`RepositorioApi.Api`, `RepositorioApi.Application`, `RepositorioApi.Infrastructure`, `RepositorioApi.Domain`).
 - Interfaces começam com `I` e descrevem contratos de alto nível.
-
----
-
-Se quiser, eu posso:
-- Adicionar ReportGenerator e pipeline de cobertura automatizada (dotnet global tool + script).
-- Criar um README mais enxuto em inglês para repositórios públicos.
-- Implementar retry com Polly e instruções de configuração de token de acesso ao GitHub para reduzir limites de rate.
-
-— GitHub Copilot
