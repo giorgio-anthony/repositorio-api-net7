@@ -1,0 +1,112 @@
+# .gitignore for .NET 7 / ASP.NET Core projects
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+
+# Publish outputs
+publish/
+wwwroot/**/*.bundle
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+Logs/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+packages.config
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+coverage.opencover.xml
+coverage.cobertura.xml
+
+# Coverage tools
+.coverage
+.coveragexml
+
+# Dotnet user-secrets
+secrets.json
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Certificates
+*.pfx
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper*
+
+# JetBrains Rider
+.idea/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Visual Studio publish settings
+*.publishsettings
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Web App publish folder
+csx/
+
+# User-specific files
+*.vspscc
+
+# JetBrains Rider caches
+.idea/
+
+# Coverage report output
+coverage-report/
+
+# Local DB
+*.mdf
+*.ldf
+
+# Environment files
+.env
+.env.*
+
+# Generated files
+**/*.g.cs
+**/*.g.i.cs
+
+# Secret files (if any)
+appsettings.*.json
+
+# End of .gitignore
